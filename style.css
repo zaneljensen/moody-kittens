@@ -275,3 +275,33 @@ button.btn-special:hover{
 .hidden{
   display: none !important;
 }
+
+button:focus{
+  filter: brightness(1);
+}
+
+button:hover{
+  padding: 1cm;
+  filter: drop-shadow(2);
+  transition: all;
+  display: none !important;
+  background-color: #ff0000;
+  font-style: unset;
+  color: darkviolet;
+  margin-bottom: auto;
+
+}
+button:hover{
+  font-size: large;
+  font-style: oblique;
+}
+
+.action:hover{
+  padding: 5cm;
+  filter: grayscale(3);
+  background-color: #3a3838;
+  font-style: inherit;
+  margin-right: 0fr;
+  color: chartreuse;
+  box-shadow: #e0d9d9;
+}
